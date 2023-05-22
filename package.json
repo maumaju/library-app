@@ -6,6 +6,7 @@
   "scripts": {
     "test": "jest --silent",
     "test:debug": "jest",
+    "start": "json-server --watch ./server/db.json --port 3333",
     "start:client": "serve ./client",
     "start:server": "json-server --watch ./server/db.json --port 3333"
   },
